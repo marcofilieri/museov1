@@ -3,5 +3,5 @@
 Servlet + Hibernate + Mysql
 
 TODO:
-  |- Sede update() work nice
-  |- Sede delete() need fix due to fk reference
+  - Sede update() work nice
+  - Sede delete() need fix due to fk reference
