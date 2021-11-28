@@ -1,0 +1,73 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <display-name>HomeServlet</display-name>
+        <description/>
+        <servlet-class>it.linksmt.academy.museo.HomeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListaSedi</servlet-name>
+        <display-name>ListaSedi</display-name>
+        <description/>
+        <servlet-class>it.linksmt.academy.museo.ListaSediServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RicercaArticoliServlet</servlet-name>
+        <display-name>RicercaArticoliServlet</display-name>
+        <description/>
+        <servlet-class>it.linksmt.academy.museo.RicercaArticoliServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RicercaSediServlet</servlet-name>
+        <display-name>RicercaSediServlet</display-name>
+        <description/>
+        <servlet-class>it.linksmt.academy.museo.RicercaSedeServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>EliminaSedeServlet</servlet-name>
+        <display-name>EliminaSedeServlet</display-name>
+        <description/>
+        <servlet-class>it.linksmt.academy.museo.EliminaSedeServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ModificaSedeServlet</servlet-name>
+        <display-name>ModificaSedeServlet</display-name>
+        <description/>
+        <servlet-class>it.linksmt.academy.museo.ModificaSedeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListaSedi</servlet-name>
+        <url-pattern>/listasedi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RicercaArticoliServlet</servlet-name>
+        <url-pattern>/ricerca-articoli</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RicercaSediServlet</servlet-name>
+        <url-pattern>/ricerca-sedi</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ModificaSedeServlet</servlet-name>
+        <url-pattern>/modifica-sede</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminaSedeServlet</servlet-name>
+        <url-pattern>/elimina-sede</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>home</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
