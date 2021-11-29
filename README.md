@@ -2,6 +2,8 @@
 
 Servlet + Hibernate + Mysql
 
-TODO:
+"WORKING"
   - Sede update() work nice
+
+TODO:
   - Sede delete() need fix due to fk reference
